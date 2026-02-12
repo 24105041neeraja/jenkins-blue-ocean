@@ -1,0 +1,10 @@
+pipline {
+  agent any
+stages {
+ stages ('Build') {
+  steps {
+    echo 'Hello from Jenkins Pipeline'
+    }
+  }
+ }
+}
